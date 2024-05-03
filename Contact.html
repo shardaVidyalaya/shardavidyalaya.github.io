@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sharda vidyalaya: Contact us</title>
+    <link rel="shortcut icon" href="./public/favicon.ico" type="image/x-icon">
+    <meta name="description" content="Sharda Vidyalaya Risali is a non-commercial, English medium, co-ed, senior secondary school in Risali, Bhilai, Chhattisgarh, India. It was established in 2006 by Vaishali Nagar Shikshan Samiti, a non-commercial education society. The school is affiliated with the Central Board of Secondary Education (CBSE).">
+    <meta name="keywords" content="Sharda Vidyalaya, Risali, Schools, CBSE">
+    <meta name="author " content="Sharda Vidyalaya ">
+    <meta property="og:title " content="Sharda Vidyalaya">
+    <meta property="og:site_name " content="Sharda Vidyalaya">
+    <meta property="og:url " content="https://shardavidyalaya.netlify.app/ ">
+    <meta property="og:description " content="Sharda Vidyalaya Risali is a non-commercial, English medium, co-ed, senior secondary school in Risali, Bhilai, Chhattisgarh, India. It was established in 2006 by Vaishali Nagar Shikshan Samiti, a non-commercial
+        education society. The school is affiliated with the Central Board of Secondary Education (CBSE). ">
+    <meta property="og:type " content="website ">
+    <meta property="og:image " content="./assets/banner.jpeg ">
+    <meta name="twitter:card " content="summary ">
+    <meta name="twitter:title " content="Sharda Vidyalaya">
+    <meta name="twitter:description " content="Sharda Vidyalaya Risali is a non-commercial, English medium, co-ed, senior secondary school in Risali, Bhilai, Chhattisgarh, India. It was established in 2006 by Vaishali Nagar Shikshan Samiti, a non-commercial
+        education society. The school is affiliated with the Central Board of Secondary Education (CBSE). ">
+    <meta name="twitter:site " content="@shardavidyalaya">
+    <meta name="twitter:image " content="./assets/banner.jpg ">
+    <link rel="stylesheet" href="index.min.css">
+    <link rel="stylesheet" href="Contact.css">
+    <link rel="preconnect " href="https://fonts.googleapis.com ">
+    <link rel="preconnect " href="https://fonts.gstatic.com " crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap "
+        rel="stylesheet ">
+</head>
+
+
+<body>
+    <header>
+        <div id="navLogo">
+            <a href="https://shardavidyalaya.netlify.app">
+                <img src="./assets/logo-sharda-vidyalaya.png" alt="Logo of Sharda Vidyalaya">
+            </a>
+        </div>
+        <nav id="nav-bar">
+            <ul>
+                <li>
+                    <a href="./">Home</a>
+                </li>
+                <li>
+                    <a href="./Portfolio.html">Portfolio</a>
+                </li>
+                <li>
+                    <a href="./About.html">About</a>
+                </li>
+                <li>
+                    <a href="./Contact.html">Contact</a>
+                </li>
+
+            </ul>
+        </nav>
+        <li id="res" onClick={toggleSidebar}>
+            <a>
+                <svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="24">
+                    <path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z" />
+                </svg>
+            </a>
+        </li>
+        <div id="sidebar">
+            <li id="ser" onClick={toggleSidebar}>
+                <a>
+                    <svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="24">
+                        <path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z" />
+                    </svg>
+                </a>
+            </li>
+
+            <ul>
+                <li>
+                    <a href="./">Home</a>
+                </li>
+                <li>
+                    <a href="./Portfolio.html">Portfolio</a>
+                </li>
+                <li>
+                    <a href="./About.html">About</a>
+                </li>
+                <li>
+                    <a href="./Contact.html">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </header>
+    <section id="contact">
+        <form action="{https://api.web3forms.com/submit}" method="POST" id="contact-form">
+            <input type="hidden" name="access_key" value="{API access key}">
+            <div id="contact-left-title">
+                <h2>Get in touch</h2>
+                <hr>
+            </div>
+            <input type="text" name="name" placeholder="Your Name" class="contact-inputs" required>
+            <input type="email" name="email" placeholder="Your Email" class="contact-inputs" required>
+            <textarea name="message" placeholder="Your Message" class="contact-inputs" required></textarea>
+            <button type="submit">Submit <img src="assets/arrow_icon.png" alt=""></button>
+        </form>
+        <div id="contact-img">
+            <img src="./assets/right_img.png" alt="">
+        </div>
+    </section>
+
+    <script src="./index.min.js"></script>
+</body>
+
+</html>
