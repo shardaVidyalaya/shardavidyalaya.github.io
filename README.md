@@ -15,5 +15,5 @@ Shakuntala group of schools is a group of schools affiliated with the Central Bo
 
 ## Contact
 For more information, please contact us:
-- [Website](https://shardavidyalaya.netlify.app)
+- [Website](https://shardavidyalaya.github.io)
 - [Email](mailto:contact@shardavidyalaya.com)
