@@ -1,0 +1,47 @@
+body {
+    overflow: hidden;
+}
+
+#hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* Prevent horizontal scrolling */
+    max-height: 100vh;
+}
+
+#image {
+    top: 0;
+    width: 50%;
+    /* Adjust the width as needed */
+    height: 100vh;
+    overflow: hidden;
+    /* Hide overflow to prevent scrolling */
+}
+
+#director img {
+    width: 100%;
+}
+
+#text {
+    flex: 1;
+    text-align: left;
+    padding: 0 20px;
+    /* Adjust spacing as needed */
+}
+
+#sub h1 {
+    margin-bottom: 20px;
+    /* Adjust spacing as needed */
+}
+
+@media (max-width: 768px) {}
+
+@media (max-width: 848px) {
+    #director img {
+        display: none;
+    }
+    #text {
+        all: unset;
+    }
+}

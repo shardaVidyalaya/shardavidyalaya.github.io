@@ -1,0 +1,27 @@
+#heading {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+.image-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 20px;
+    max-width: 100%;
+    overflow-x: hidden;
+    margin-left: 10px;
+    margin-right: 10px;
+    /* Prevent horizontal scrolling */
+}
+
+.image-grid img {
+    max-width: 100%;
+    /* Ensure images don't exceed the width of their container */
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    /* Center the images within their grid cells */
+    border-radius: 5px;
+}
