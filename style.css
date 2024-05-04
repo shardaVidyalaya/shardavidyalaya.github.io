@@ -16,15 +16,21 @@ body {
 h1,
 #heading {
     font-family: Ubuntu, sans-serif;
-    font-size: 2.5rem;
+    font-size: 2.0rem;
     margin-bottom: 1rem;
     color: #f0f8ff;
+}
+
+#welcome h1 {
+    font-size: 3.0rem;
+    font-weight: 800;
 }
 
 a {
     text-decoration: none;
     font-family: 'Poppins', sans-serif;
 }
+
 h1,
 p,
 span,
@@ -49,7 +55,7 @@ li {
 
 #hero {
     text-align: center;
-    padding: 50px 0;
+    padding: 1px 0;
     max-height: 100dvh;
 }
 
@@ -58,6 +64,11 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 1rem 2rem;
+}
+
+#sub-welcome span {
+    font-size: 2.5rem;
+    font-weight: 600;
 }
 
 #nav-bar,
